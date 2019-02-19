@@ -1,14 +1,14 @@
 /*****グローバルメニュー****/
 #menu{
     width: 100%;
-    background: #07BAEE;
+    background: #444;
     margin: 10px auto;
 }
 #menu-inner{
     width: 100%;
     height: 40px;
     margin: 0 auto;
-    background: #07BAEE;
+    background: #444;
 }
 #menu-btn{display: none;}
 #menu-content{
@@ -31,14 +31,14 @@
     height: 100%;
     width: 100%;
     line-height: 40px;
-    background: #07BAEE;
+    background: #444;
     color: #fff;
     font-size: 100%;
     text-decoration: none;
     z-index: 2;
 }
 #menu-content > li > a:hover{
-    background: #A9E1F6;
+    background: #848484;
     color: #fff;
 }
 #menu-content > li > a > .blogicon-chevron-down{margin-right: 5px;}
@@ -56,7 +56,7 @@
     padding: 8px 15px;
     margin: 5px;
     cursor: pointer;
-    background: #07BAEE;
+    background: #444;
     color: #fff;
     font-size: 100%;
 }
