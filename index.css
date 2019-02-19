@@ -42,39 +42,7 @@
     color: #fff;
 }
 #menu-content > li > a > .blogicon-chevron-down{margin-right: 5px;}
-/*２階層目*/
-#menu-content > li > ul.second-content{
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    margin: 0;
-    padding-left: 0;
-    list-style-type: none;
-    z-index: -1;
-}
-#menu-content > li:hover > ul.second-content{
-    visibility: visible;
-    top: 40px;
-    z-index: 1;
-    transition: all .3s;
-}
-#menu-content > li > ul.second-content > li{
-    text-align: center;
-    width: 180px;
-    height: 40px;
-}
-#menu-content > li > ul.second-content > li > a{
-    display: block;
-    line-height: 40px;
-    background: #07BAEE;
-    color: #fff;
-    font-size: 100%;
-    text-decoration: none;
-}
-#menu-content > li > ul.second-content > li > a:hover{
-    background: #A9E1F6;
-    color: #fff;
-}
+
 /*******トグルメニュー*********/
 @media screen and (max-width:960px){
 #menu-inner{
@@ -108,6 +76,5 @@
     text-decoration: none;
 }
 /*２階層目*/
-#menu-content > li:hover > ul.second-content{display: none;}
 #menu-content > li > a > .blogicon-chevron-down{display: none;}
 }
